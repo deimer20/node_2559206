@@ -20,7 +20,7 @@ hbs.registerPartials(__dirname+'/public/views/partials');
 app.get('/', (req, res) =>{
     // res.write('Home')
     // res.end()
-    res.render('Home',
+    res.render('home',
     {
         titulo: 'Home',
         nombre: 'Deimer ibarguen'
